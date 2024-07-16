@@ -1,0 +1,44 @@
+p{
+        font-family: Calibri;
+        margin-bottom: 15px;
+        margin-top: 0px; 
+    }
+.search{
+        display: block;
+            width: 500px;
+            height:30px;
+            padding-left: 15px;
+            border: none;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border-radius: 30px;
+            padding-right: 15px;
+            font-size: 16px;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 5px rgb(226, 224, 224);
+            
+        }
+    .image1{
+        object-fit: cover;
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+    }
+.youtube1{
+font-size: 24px;
+font-weight: bold;
+width: 350px;
+line-height: 30px;
+}
+.youtube2{
+   color: rgb(110, 109, 109);
+   font-size: 16px; 
+}
+.youtube3{ 
+   color: rgb(110, 109, 109);
+   font-size: 16px;
+   font-weight: bold;
+}
+

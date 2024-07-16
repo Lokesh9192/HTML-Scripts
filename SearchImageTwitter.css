@@ -1,0 +1,43 @@
+.image{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+}
+.search{
+    border:none;
+    box-shadow: 0 1px 0px rgb(220, 217, 212);
+    border-radius: 15px;
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    vertical-align: middle;
+    margin-left:20px ;
+}
+.Tweet{
+    border:none;
+    color: White;
+    background-color: rgb(17, 99, 221);
+    box-shadow: 0 1px 0px rgb(220, 217, 212);
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    vertical-align: middle;
+    margin-left:180px ;
+    transition: 1s;
+}
+.Tweet:active{
+    background-color: black;
+    border-radius: 25px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 1s;
+} 

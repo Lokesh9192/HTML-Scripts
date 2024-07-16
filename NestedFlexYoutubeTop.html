@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube</title>
+        <style>
+            .columns{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 55px;
+               
+            }
+            .Left_section{
+                display: flex;
+                align-items: center;
+            }
+            .Menu{
+               margin-left: 25px;
+               margin-right: 25px;
+                height:25px;
+            }
+            .Youtube_logo{
+                height:20px;
+               margin-left: 20px; 
+            }
+            .Middle_section{
+                flex: 1;
+                margin-left: 70px;
+                margin-right: 35px;
+                max-width:600px;
+                display: flex;
+                align-items: center;
+            }
+            .search{
+                flex: 1;
+                height: 36px;
+                padding-left: 10px;
+                font-size: 16px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(192, 192, 192);
+                border-radius: 2px;
+                box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+                width: 0;
+               
+            }
+            .search::placeholder {
+                font-family: Roboto, Arial;
+                font-size: 16px;
+            } 
+            .search_button{
+                margin-left: -2px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(192, 192, 192);
+                background-color: rgb(240, 240, 240); 
+                height: 39px;
+                width:66px;
+                margin-right: 10px;
+            }
+            .search_bar{
+              margin-top: 4px;
+                height: 25px;
+            }
+            .mic_button{
+                height:38px;
+                width:38px;
+                border:none;
+                border-radius: 19px;
+                margin-left: 10px;
+            }
+            .mic{
+                height:22px;
+                margin-top: 4px;
+            }
+            .Right_section{
+                width:220px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-right: 20px;
+                flex-shrink: 0;
+            }
+            .upload{
+                height: 30px;
+                
+            }
+            .apps{
+                height: 30px;
+               
+            }
+            .notifications{
+                height: 30px;
+                
+            }
+            .user{
+                height: 32px;
+                border-radius: 16px;
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="columns">
+            <div class="Left_section">
+                    <img class="Menu" src="Images/hamburger-menu.svg">
+                    <img class="Youtube_logo" src="Images/youtube-logo.svg">
+            </div>
+            <div class="Middle_section">
+                <input class="search" type="text" placeholder="Search">
+                <button class="search_button">
+                    <img class="search_bar" src="Images/search.svg">
+                </button>
+                <button class="mic_button">
+                    <img class="mic" src="Images/voice-search-icon.svg">
+                </button>
+            </div>
+            <div class="Right_section">
+                <img class="upload" src="Images/upload.svg">
+                <img class="apps" src="Images/youtube-apps.svg">
+                <img class="notifications" src="Images/notifications.svg">
+                <img class="user" src="Images/channel-1.jpeg">
+            </div>
+        </div>  
+    </body>
+</html>

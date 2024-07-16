@@ -1,0 +1,14 @@
+.Red{
+    width:150px;
+    height: 150px;
+    background-color: red;
+    display: inline-block;
+}
+.Green{
+    width:150px;
+    height: 150px;
+    border-radius: 120px;
+    background-color: green;
+    display: inline-block;
+    margin-left: 40px;
+}

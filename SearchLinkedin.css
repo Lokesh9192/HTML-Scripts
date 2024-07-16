@@ -1,0 +1,36 @@
+p{
+  font-size: 14px;
+  font-family: Arial;
+}
+.linkedin{
+   width:300px;
+   height:25px;
+
+}
+.agree{
+    color: white;
+    background-color: rgb(12, 85, 188);
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    width: 350px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.agree:active{
+    background-color: black;
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 1s;
+}

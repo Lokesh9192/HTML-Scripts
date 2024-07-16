@@ -1,0 +1,42 @@
+p{
+    font-family: Arial;
+    margin-bottom: 15px;
+    margin-top: 0px; 
+    display: inline-block;
+}
+.image{
+    width:300px;
+   
+}
+.youtube1{
+font-size: 16px;
+font-weight: bold;
+width: 300px;
+line-height: 30px;
+margin-top: 0px;
+
+}
+.youtube2{
+color: rgb(110, 109, 109);
+font-size: 14px; 
+display: block;
+
+}
+.youtube3{ 
+color: rgb(110, 109, 109);
+font-size: 14px;
+font-weight: bold;
+
+}
+.Video{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.Video1{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+    
+}

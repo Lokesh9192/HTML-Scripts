@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nested Flex</title>
+        <style>
+            .background{
+                display: flex;
+                flex-direction: row;
+            }
+            .pink{
+                background-color: lightpink;
+                width:150px;
+            }
+            .blue{
+                background-color: lightblue;
+                display: flex;
+                flex-direction: column;
+                width:500px;
+            }
+            .row2{
+                color:white;
+                background-color: black; 
+                width:40px;
+            }
+            .row{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 15px;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="background">
+            <div class="pink"></div>
+            <div class="blue">
+                <div>row1</div>
+                <div class="row">
+                    <div class="row2"> row2</div>
+                    <div class="row2">row2</div>
+                </div>
+                
+            </div>        
+            
+       </div>
+    </body>
+</html>
