@@ -1,0 +1,26 @@
+.sider{
+    position: fixed;
+    width:100px;
+    left:0;
+    bottom: 0;
+    top:50px;
+    z-index: 100;
+    background-color: white;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+   
+}
+.sider_div{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sider_div:hover{
+    background-color: rgb(189, 183, 183);
+}
